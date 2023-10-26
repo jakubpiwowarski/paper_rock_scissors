@@ -10,7 +10,7 @@ int main() {
   map <int, string> moves;
   moves.emplace(0, "paper");
   moves.emplace(1, "rock");
-  moves.emplace(0, "scissors");
+  moves.emplace(2, "scissors");
 
   int userPoints = 0;
   int cpuPoints = 0;
